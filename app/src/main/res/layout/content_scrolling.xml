@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".list"
+    tools:showIn="@layout/activity_list">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/Q1group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="24dp">
+
+            <TextView
+                android:id="@+id/Q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/Q1A1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/안함"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q1A2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_30분"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q1A3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1시간"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q1A4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_2시간"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q2group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="24dp">
+
+            <TextView
+                android:id="@+id/Q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q2"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <RadioButton
+                android:id="@+id/Q2A1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/먹지않음"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q2A2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1회"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q2A3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_2회"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q2A4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_3회이상"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q3group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="24dp">
+
+            <TextView
+                android:id="@+id/Q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/Q3A1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1회"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q3A2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_2회"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q3A3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_3회"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q3A4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_4회이상"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q4group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="24dp">
+
+            <TextView
+                android:id="@+id/Q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/Q4A1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/먹지않음"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q4A2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/소량"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q4A3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/정량"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q4A4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/과식"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q5group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="24dp">
+
+            <TextView
+                android:id="@+id/Q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q5"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/Q5A1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/먹지않음"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q5A2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/소량"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q5A3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/정량"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q5A4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/과식"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q6group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/Q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q6"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/Q6A1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/먹지않음"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q6A2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/소량"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q6A3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/정량"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/Q6A4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/과식"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="24dp"
+            android:text="@string/완료"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">1stcl</string>
+    <string name="title_activity_list">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="Q1">Q. 운동은 얼마나 하셨나요?</string>
+    <string name="안함">안함</string>
+    <string name="_30분">30분</string>
+    <string name="_1시간">1시간</string>
+    <string name="_2시간">2시간 이상</string>
+    <string name="Q2">Q. 간식은 몇번 드셨나요?</string>
+    <string name="먹지않음">먹지 않음</string>
+    <string name="_1회">1회</string>
+    <string name="_2회">2회</string>
+    <string name="_3회이상">3회 이상</string>
+    <string name="Q3">Q. 식사는 몇번 하셨나요?</string>
+    <string name="_3회">3회</string>
+    <string name="_4회이상">4회 이상</string>
+    <string name="Q4">Q. 아침식사는 얼마나 드셨나요?</string>
+    <string name="소량">소량</string>
+    <string name="정량">정량</string>
+    <string name="과식">과식</string>
+    <string name="Q5">Q. 점심식사는 얼마나 드셨나요?</string>
+    <string name="Q6">Q. 저녁식사는 얼마나 드셨나요?</string>
+    <string name="완료">완료</string>
+    <string name="START">START</string>
+ </resources>
